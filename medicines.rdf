@@ -1,0 +1,1321 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36/"
+     xml:base="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-36="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#cause -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#cause">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#causes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#causes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#causes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Causes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_name"/>
+        <rdfs:comment>Causes cause diseases.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#dis_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#dis_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_types"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_name"/>
+        <rdfs:comment>type of diseases</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#symptoms"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_seen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has_class -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has_class">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has_types_or_class"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has_sideeffect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has_sideeffect">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#side_effects"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_sideeffect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has_types_or_class"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has_types_or_class -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#has_types_or_class"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_caused -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_caused">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#causes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_class_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_class_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_type_or_class"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_required -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_required">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#required"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#requires_uses"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease"/>
+        <rdfs:comment>medicine is required for treatment of disease.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_seen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_seen">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#symptoms"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_sideeffect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_sideeffect">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#side_effects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_tested_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_tested_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#testing"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#used_to_test"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_type">
+        <rdfs:comment>There are types of medicines and diseases.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_type_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_type_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_type_or_class"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_type_or_class -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_type_or_class"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#med_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#med_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#is_type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <rdfs:comment>type of medicines.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#required -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#required">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#requires"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#requires -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#requires"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#requires_uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#requires_uses">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#requires"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine"/>
+        <rdfs:comment>treatment of disease requires uses of medicine.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#side_effects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#side_effects">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <rdfs:comment>Certain sideeffects are seen when certain medicines are used.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#symptoms -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#symptoms">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <rdfs:comment>Diseases have some symptoms.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#testing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#testing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#used_to_test -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#used_to_test">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#testing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Combination -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Combination"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Longivity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Longivity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Usage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Usage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#stage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#stage"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Causes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Causes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Test"/>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_name"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#A_cough_that_lasts_more_than_three_weeks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#A_cough_that_lasts_more_than_three_weeks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Active_TB"/>
+        <untitled-ontology-36:stage>If coughing is seen for more than three weeks then it is serious</untitled-ontology-36:stage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Acne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Acne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Steroid"/>
+        <untitled-ontology-36:Longivity>Remains till the medicine is used.</untitled-ontology-36:Longivity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Active_TB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Active_TB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#A_cough_that_lasts_more_than_three_weeks"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Chest_tightness_or_pain"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Difficulty_on_putting_weight"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Fever"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Loss_of_apetite"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Night_sweats"/>
+        <untitled-ontology-36:is_type_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Ethambutol"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Pyrazinamide"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rifampin"/>
+        <untitled-ontology-36:Cure>Can be cured with medicines.</untitled-ontology-36:Cure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Allergic_asthma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Allergic_asthma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rashes"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Shortness_of_breath"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Wheezing"/>
+        <untitled-ontology-36:is_type_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhaled_corticosides"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rescue_inhalers"/>
+        <untitled-ontology-36:Cure>Symptoms can be controlled using medicines.</untitled-ontology-36:Cure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Aspirin_induced_asthma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Aspirin_induced_asthma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Running_or_stuffy_nose"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Sneezing"/>
+        <untitled-ontology-36:is_type_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhaled_corticosides"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_name"/>
+        <untitled-ontology-36:dis_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#External"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Allergic_asthma"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cough_variant_asthma"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Nighttime_asthma"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Occupational_Asthma"/>
+        <untitled-ontology-36:is_caused rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Exposure_to_the_person_with_same_disease"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhalers"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Steroid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Body_pain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Body_pain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Dornase_Alfa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Bronchodilator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Bronchodilator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Headaches"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#bloating_or_diarohea"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cough_variant_asthma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#CT-Scan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#CT-Scan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Test"/>
+        <untitled-ontology-36:used_to_test rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Chest_X-Ray -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Chest_X-Ray">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Test"/>
+        <untitled-ontology-36:used_to_test rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Chest_tightness_or_pain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Chest_tightness_or_pain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Active_TB"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rescue_inhalers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Conduction_mutations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Conduction_mutations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:is_class_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Kalydeco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cough -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cough">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cough_variant_asthma"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Excercise_induced_asthma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cough_variant_asthma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cough_variant_asthma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cough"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Wheezing"/>
+        <untitled-ontology-36:is_type_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Bronchodilator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_name"/>
+        <untitled-ontology-36:dis_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Genetic"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Difficulty_on_putting_weight"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Recurring_chest_infections"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Shortness_of_breath"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#bloating_or_diarohea"/>
+        <untitled-ontology-36:has_class rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Conduction_mutations"/>
+        <untitled-ontology-36:has_class rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Gating_mutations"/>
+        <untitled-ontology-36:has_class rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Insufficient_protein_mutations"/>
+        <untitled-ontology-36:has_class rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Protein_processing_mutations"/>
+        <untitled-ontology-36:has_class rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Protein_production_mutations"/>
+        <untitled-ontology-36:is_caused rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Genetic_and_lifestyle_factors"/>
+        <untitled-ontology-36:is_tested_by rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Sweat_test"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Dornase_Alfa"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Kalydeco"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Steroid"/>
+        <untitled-ontology-36:Cure>Medication can control the symptoms and reduce complications.</untitled-ontology-36:Cure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Diabetes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Diabetes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_name"/>
+        <untitled-ontology-36:causes rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Genetic_and_lifestyle_factors"/>
+        <untitled-ontology-36:dis_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Metabolic"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Fatigue"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Increased_thirst_and_urination"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Gestational_diabetes"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Type_1_diabetes"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Type_2_diabetes"/>
+        <untitled-ontology-36:is_tested_by rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#blood_test"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Metformin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Difficulty_on_putting_weight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Difficulty_on_putting_weight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Dizziness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Dizziness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Kalydeco"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rifampin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Dornase_Alfa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Dornase_Alfa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis"/>
+        <untitled-ontology-36:med_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Prescribed"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Body_pain"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tender_or_swollen_glands_on_neck"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Ethambutol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Ethambutol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Fever"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Musclepain_or_weakness"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rashes"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Active_TB"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Miliary_TB"/>
+        <untitled-ontology-36:med_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Prescribed"/>
+        <untitled-ontology-36:Usage>People allergic to ethambutol shouldnot use it.</untitled-ontology-36:Usage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Excercise_induced_asthma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Excercise_induced_asthma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cough"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Shortness_of_breath"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Wheezing"/>
+        <untitled-ontology-36:is_type_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhaled_corticosides"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Exposure_to_the_person_with_same_disease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Exposure_to_the_person_with_same_disease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Causes"/>
+        <untitled-ontology-36:cause rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma"/>
+        <untitled-ontology-36:cause rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#External -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#External">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_types"/>
+        <rdfs:comment>External diseases are mostly the result of complex combination between environmental and genetic factors.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Faster_heartbeat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Faster_heartbeat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhalers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Fatigue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Fatigue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Diabetes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#FeNO_test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#FeNO_test">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Test"/>
+        <untitled-ontology-36:used_to_test rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Feeling_shaky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Feeling_shaky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhalers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Feeling_sick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Feeling_sick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Metformin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Fever -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Fever">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Active_TB"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Ethambutol"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Frequent_coughing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Frequent_coughing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Gating_mutations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Gating_mutations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:is_class_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Kalydeco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Genetic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Genetic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_types"/>
+        <rdfs:comment>Genetic diseases are mostly caused due to some disorders on genes.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Genetic_and_lifestyle_factors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Genetic_and_lifestyle_factors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Causes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Gestational_diabetes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Gestational_diabetes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Fatigue"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Increased_thirst_and_urination"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#loosing_weight"/>
+        <untitled-ontology-36:is_type_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Diabetes"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Metformin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Headaches -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Headaches">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Bronchodilator"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhalers"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Kalydeco"/>
+        <rdfs:comment>Headache is symptoms of some disease whereas it can be side effectsv of some medicines as well.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Increased_thirst_and_urination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Increased_thirst_and_urination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Gestational_diabetes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Infectious -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Infectious">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_types"/>
+        <rdfs:comment>Infectious diseases are caused by viruses which can be transferred from one person to another when they come in close contact.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhaled_corticosides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhaled_corticosides">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Sore_mouth"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#nosebleeds"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Allergic_asthma"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Excercise_induced_asthma"/>
+        <untitled-ontology-36:med_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Prescribed"/>
+        <untitled-ontology-36:stage>this is used when asthma is not under control</untitled-ontology-36:stage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhalers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhalers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Faster_heartbeat"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Feeling_shaky"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Headaches"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma"/>
+        <untitled-ontology-36:med_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Over_the_counter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Insufficient_protein_mutations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Insufficient_protein_mutations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:is_class_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Kalydeco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Isoniazid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Isoniazid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Loss_of_apetite"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Latent_TB"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Miliary_TB"/>
+        <untitled-ontology-36:med_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Prescribed"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Pyrazinamide"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Yellow_eyes_or_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Itching -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Itching">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Kalydeco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Kalydeco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Dizziness"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Headaches"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rashes"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Conduction_mutations"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis"/>
+        <untitled-ontology-36:med_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Prescribed"/>
+        <untitled-ontology-36:Usage>People with cystic fibrosis (CF) age 4 months and older with at least one mutation in their CF gene that is responsive to KALYDECO can take this medicine.</untitled-ontology-36:Usage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Latent_TB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Latent_TB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:is_type_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis"/>
+        <untitled-ontology-36:Cure>can be cured with medications.</untitled-ontology-36:Cure>
+        <rdfs:comment>it has no symptoms.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Loss_of_apetite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Loss_of_apetite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Active_TB"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Isoniazid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Metabolic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Metabolic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_types"/>
+        <rdfs:comment>Metabolic diseases are normally caused due to combination of genetic and lifestyle factors which increase the risks of heart disease, stroke and diabetes.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Metformin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Metformin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Gestational_diabetes"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Feeling_sick"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Weight_loss_or_gain"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#bloating_or_diarohea"/>
+        <untitled-ontology-36:Usage>People with liver or kidney problems cannot use this medicine.</untitled-ontology-36:Usage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Miliary_TB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Miliary_TB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Fever"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#loosing_weight"/>
+        <untitled-ontology-36:is_type_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Ethambutol"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Isoniazid"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rifampin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Montelukast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Montelukast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Nighttime_asthma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Musclepain_or_weakness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Musclepain_or_weakness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Night_sweats -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Night_sweats">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Active_TB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Nighttime_asthma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Nighttime_asthma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+        <untitled-ontology-36:is_type_of rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Montelukast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Occupational_Asthma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Occupational_Asthma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Over_the_counter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Over_the_counter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types"/>
+        <rdfs:comment>The medicine is available even without the prescription.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Pain_and_swelling_of_joints -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Pain_and_swelling_of_joints">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Prescribed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Prescribed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types"/>
+        <rdfs:comment>The medicine is available only with the prescription.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Protein_processing_mutations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Protein_processing_mutations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Protein_production_mutations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Protein_production_mutations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Pyrazinamide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Pyrazinamide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Miliary_TB"/>
+        <untitled-ontology-36:med_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Prescribed"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Loss_of_apetite"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Pain_and_swelling_of_joints"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Yellow_eyes_or_skin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rapid_mood_swings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rapid_mood_swings">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rashes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rashes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Allergic_asthma"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Ethambutol"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Kalydeco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Recurring_chest_infections -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Recurring_chest_infections">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rescue_inhalers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rescue_inhalers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Chest_tightness_or_pain"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Shortness_of_breath"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Wheezing"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Allergic_asthma"/>
+        <untitled-ontology-36:Combination>It has combination of albuterol, levalbuterol and pirbuterol.</untitled-ontology-36:Combination>
+        <untitled-ontology-36:stage>it is used in first stage of disease</untitled-ontology-36:stage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rifampin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rifampin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Active_TB"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Miliary_TB"/>
+        <untitled-ontology-36:med_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Prescribed"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Dizziness"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Headaches"/>
+        <untitled-ontology-36:side_effects rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Itching"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Running_or_stuffy_nose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Running_or_stuffy_nose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Aspirin_induced_asthma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Shortness_of_breath -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Shortness_of_breath">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Allergic_asthma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Sneezing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Sneezing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Aspirin_induced_asthma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Sore_mouth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Sore_mouth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhaled_corticosides"/>
+        <untitled-ontology-36:Longivity>It remains until the medicine is used.</untitled-ontology-36:Longivity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Spirometry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Spirometry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Test"/>
+        <untitled-ontology-36:used_to_test rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Asthma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Steroid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Steroid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Medicine_name"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Aspirin_induced_asthma"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Acne"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Musclepain_or_weakness"/>
+        <untitled-ontology-36:has_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rapid_mood_swings"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Excercise_induced_asthma"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Miliary_TB"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis"/>
+        <untitled-ontology-36:is_required rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis"/>
+        <untitled-ontology-36:med_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Prescribed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Steroid_resistant_asthma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Steroid_resistant_asthma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Sweat_test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Sweat_test">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Test"/>
+        <untitled-ontology-36:used_to_test rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#TB_blood_test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#TB_blood_test">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Test"/>
+        <untitled-ontology-36:used_to_test rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#TB_skin_test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#TB_skin_test">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Test"/>
+        <untitled-ontology-36:used_to_test rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tender_or_swollen_glands_on_neck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tender_or_swollen_glands_on_neck">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Dornase_Alfa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Tuberclosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Disease_name"/>
+        <untitled-ontology-36:dis_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Infectious"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Chest_tightness_or_pain"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Difficulty_on_putting_weight"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Shortness_of_breath"/>
+        <untitled-ontology-36:has rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#bloating_or_diarohea"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Active_TB"/>
+        <untitled-ontology-36:has_type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Latent_TB"/>
+        <untitled-ontology-36:is_caused rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Exposure_to_the_person_with_same_disease"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Pyrazinamide"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rifampin"/>
+        <untitled-ontology-36:requires_uses rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Steroid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Type_1_diabetes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Type_1_diabetes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Type_2_diabetes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Type_2_diabetes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Types_or_classes_of_disease"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Weight_loss_or_gain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Weight_loss_or_gain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Metformin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Wheezing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Wheezing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Allergic_asthma"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Excercise_induced_asthma"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Rescue_inhalers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Yellow_eyes_or_skin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Yellow_eyes_or_skin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Isoniazid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#bloating_or_diarohea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#bloating_or_diarohea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Cystic_fibrosis"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Bronchodilator"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Metformin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#blood_test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#blood_test">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Test"/>
+        <untitled-ontology-36:used_to_test rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Diabetes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#loosing_weight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#loosing_weight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Symptoms"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Gestational_diabetes"/>
+        <untitled-ontology-36:is_seen rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Miliary_TB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#nosebleeds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#nosebleeds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Inhaled_corticosides"/>
+        <untitled-ontology-36:Longivity>it lasts till the use if medicine.</untitled-ontology-36:Longivity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#trembling_hands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#trembling_hands">
+        <rdf:type rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Side_effect"/>
+        <untitled-ontology-36:is_sideeffect rdf:resource="http://www.semanticweb.org/amoks/ontologies/2023/2/untitled-ontology-36#Bronchodilator"/>
+        <untitled-ontology-36:Longivity>Normally, trembling goes away after four to eighteen months of stopping medication.</untitled-ontology-36:Longivity>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
